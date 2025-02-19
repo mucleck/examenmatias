@@ -1,9 +1,10 @@
 {
   "name": "matias_examen_cicd",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "express": "^4.21.2",
     "lint": "^0.8.19",
+    "nodemon": "^3.1.9",
     "test": "^3.3.0"
   }
 }
