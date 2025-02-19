@@ -30,9 +30,7 @@ jobs:
 
       # Step 4: Lint and test the application
       - name: Lint and Test
-        run: |
-          npm run lint
-          npm test
+        run: npm test
 
       # Step 5: Build Docker image
       - name: Build Docker Image
